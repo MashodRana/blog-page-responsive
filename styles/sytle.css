@@ -1,0 +1,74 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ---------------------------------------
+        Base Styles
+--------------------------------------- */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Welcome Section Styles */
+.welcome-section{
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #2D25A0;
+    width:100%;
+    height: 675px;
+}
+
+.welcome-info{
+    margin-top: 205px;
+    
+}
+.welcome-info h1{
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.custom-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
+    height: 44px;
+    width: 168px;
+    padding: 10px, 24px;
+    
+
+}
+.welcome-img img{
+    margin-top: 135px;
+    height: 456px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
