@@ -136,16 +136,19 @@ body{
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
+    color: #0A0826;
+    /* text-align: center; */
 }
 .highlight-desc{
     margin-top: 8px;
     margin-bottom: 24px;
-    /* width: 405px; */
-    /* height: 115px; */
+    width: 405px;
+    height: 115px;
     overflow: hidden;
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    color: #6C6C6C;
     
 }
 .highlight-cover-pic{
@@ -326,8 +329,8 @@ footer{
     .welcome-img{
         margin-bottom: 60px;
         margin-top: 50px;
-        /* width: 270px ; */
-        /* height: 230px; */
+        width: 270px ;
+        height: 230px;
     }
 
     .custom-link{
@@ -337,9 +340,9 @@ footer{
     .players-section{
         width: 100%;
         margin: 45px auto 0 auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
     }
 
     /* Sport Highlights Styles */
