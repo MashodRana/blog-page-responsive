@@ -40,13 +40,19 @@ body{
     align-items: center;
     text-decoration: none;
     color: white;
-    background-color: #E02C6D;
+    background-color: #e02c6ec2;
     height: 44px;
     width: 168px;
     padding: 10px, 24px;
-    
-
+    transition: 0.6s;
 }
+.custom-link:hover .fa-angle-double-right{
+    margin-left: 2px;
+}
+.custom-link:hover{
+    background-color: red;
+}
+
 .welcome-img img{
     margin-top: 135px;
     height: 456px;
@@ -142,8 +148,81 @@ body{
     /* width: 100%; */
 }
 
+/* Sport Status Styles */
+
+.sport-status{
+    margin: 165px auto 0 auto;
+    width: 1050px;
+    height: 400px;
+    display: flex;
+    /* grid-template-columns: repeat(2, 1fr); */
+    justify-content: space-between;
+    /* border: 5px solid red; */
+
+}
+
+.status-title{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2d25a0ef;
+    margin-bottom: 20px;
+}
+
+.match-status{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    width: 450px;    
+}
 
 
+
+.match{
+    font-size: 14px;
+    /* width: 350 */
+    color: #6C6C6C;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+
+    /* box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.teams, .match-time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.separator{
+    height: 50%;
+
+}
+
+/* Standing Status Styles */
+
+.standings-status{
+    /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px; */
+    padding: 15px;
+    width: 350px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.standings table {
+    border-collapse: collapse;
+    width: 100%;
+    color: #6C6C6C;
+    font-size: 14px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
 
 
 
